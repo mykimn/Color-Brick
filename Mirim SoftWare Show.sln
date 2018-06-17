@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirim SoftWare Show", "Assembly-CSharp.csproj", "{9ACD19A8-1D31-6876-19AF-22C282A1E52B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirim SoftWare Show", "Assembly-CSharp-Editor.csproj", "{C15551D8-15A8-8355-494D-8DD179D37C11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{9ACD19A8-1D31-6876-19AF-22C282A1E52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ACD19A8-1D31-6876-19AF-22C282A1E52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ACD19A8-1D31-6876-19AF-22C282A1E52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15551D8-15A8-8355-494D-8DD179D37C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15551D8-15A8-8355-494D-8DD179D37C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15551D8-15A8-8355-494D-8DD179D37C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15551D8-15A8-8355-494D-8DD179D37C11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

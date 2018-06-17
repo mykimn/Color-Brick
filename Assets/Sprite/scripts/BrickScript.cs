@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BrickScript : MonoBehaviour {
     public static int SCORE=0;
+    public GameObject[] explode;
     public int[] array2 = new int[4] { 0, 0, 0, 0 };
     public Color32 RED = new Color32(234, 27, 91, 255);
     public Color32 BLUE = new Color32(43, 43, 188, 255);
@@ -32,23 +33,27 @@ public class BrickScript : MonoBehaviour {
             Destroy(gameObject);
             if (gameObject.GetComponent<SpriteRenderer>().color==RED)
             {
+                Instantiate(explode[0], transform.position, transform.rotation);
                 scorelimit.instance.AddScore(-5);
                 scorelimit.instance.Check(1);
             }
             else if (gameObject.GetComponent<SpriteRenderer>().color == GREEN)
             {
+                Instantiate(explode[1], transform.position, transform.rotation);
                 scorelimit.instance.AddScore(10);
                 //scorelimit2.instance.AddScore(10);
                 scorelimit.instance.Check(1);
             }
             else if (gameObject.GetComponent<SpriteRenderer>().color == YELLOW)
             {
+                Instantiate(explode[2], transform.position, transform.rotation);
                 scorelimit.instance.AddScore(5);
                 //scorelimit2.instance.AddScore(5);
                 scorelimit.instance.Check(1);
             }
             else if (gameObject.GetComponent<SpriteRenderer>().color == BLUE)
             {
+                Instantiate(explode[3], transform.position, transform.rotation);
                 scorelimit.instance.AddScore(7);
                 //scorelimit2.instance.AddScore(7);
                 scorelimit.instance.Check(1);

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/method4.unity
+- path: Assets/newfinmap.unity
   isLoaded: 1
   isActive: 1
